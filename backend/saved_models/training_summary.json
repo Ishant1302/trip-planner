@@ -1,0 +1,595 @@
+{
+  "preprocessing": {
+    "status": "success",
+    "classification_train_size": 2342,
+    "classification_test_size": 586,
+    "clustering_size": 500,
+    "regression_train_size": 640,
+    "feature_count": 21,
+    "feature_names": [
+      "nature_interest",
+      "adventure_interest",
+      "food_interest",
+      "history_interest",
+      "shopping_interest",
+      "culture_interest",
+      "nature_score",
+      "adventure_score",
+      "food_score",
+      "history_score",
+      "shopping_score",
+      "culture_score",
+      "average_cost",
+      "time_needed",
+      "rating",
+      "interest_match",
+      "cost_to_budget_ratio",
+      "rating_normalized",
+      "avg_interest",
+      "walking_comfort_num",
+      "distance_from_city_centre"
+    ]
+  },
+  "classification": {
+    "status": "success",
+    "model_comparison": {
+      "Logistic Regression": {
+        "accuracy": 0.814,
+        "precision": 0.8268,
+        "recall": 0.9747,
+        "f1_score": 0.8947,
+        "roc_auc": 0.7044,
+        "confusion_matrix": [
+          [
+            14,
+            97
+          ],
+          [
+            12,
+            463
+          ]
+        ]
+      },
+      "Decision Tree": {
+        "accuracy": 0.7816,
+        "precision": 0.8292,
+        "recall": 0.92,
+        "f1_score": 0.8723,
+        "roc_auc": 0.6411,
+        "confusion_matrix": [
+          [
+            21,
+            90
+          ],
+          [
+            38,
+            437
+          ]
+        ]
+      },
+      "Random Forest": {
+        "accuracy": 0.8038,
+        "precision": 0.8114,
+        "recall": 0.9874,
+        "f1_score": 0.8908,
+        "roc_auc": 0.7106,
+        "confusion_matrix": [
+          [
+            2,
+            109
+          ],
+          [
+            6,
+            469
+          ]
+        ]
+      }
+    },
+    "best_model": "Logistic Regression",
+    "final_model": "Random Forest",
+    "cv_f1_mean": 0.8966,
+    "cv_f1_std": 0.0015
+  },
+  "clustering": {
+    "status": "success",
+    "n_clusters": 4,
+    "inertia": 3976.8,
+    "silhouette_score": 0.0824,
+    "optimal_k": 4,
+    "cluster_distribution": [
+      {
+        "cluster_id": 0,
+        "label": "Budget Explorer",
+        "icon": "\ud83c\udf92",
+        "description": "Maximizes diverse experiences with energetic exploration",
+        "count": 138,
+        "centroid": {
+          "nature_interest": 2.55,
+          "adventure_interest": 3.17,
+          "food_interest": 3.06,
+          "history_interest": 2.71,
+          "shopping_interest": 2.3,
+          "culture_interest": 2.8
+        }
+      },
+      {
+        "cluster_id": 1,
+        "label": "Budget Explorer",
+        "icon": "\ud83c\udf92",
+        "description": "Maximizes diverse experiences with energetic exploration",
+        "count": 73,
+        "centroid": {
+          "nature_interest": 2.78,
+          "adventure_interest": 3.11,
+          "food_interest": 3.26,
+          "history_interest": 2.9,
+          "shopping_interest": 3.0,
+          "culture_interest": 2.88
+        }
+      },
+      {
+        "cluster_id": 2,
+        "label": "History & Heritage Traveller",
+        "icon": "\ud83c\udfdb\ufe0f",
+        "description": "Fascinated by historical sites, monuments and ancient civilizations",
+        "count": 138,
+        "centroid": {
+          "nature_interest": 2.58,
+          "adventure_interest": 2.86,
+          "food_interest": 2.86,
+          "history_interest": 3.87,
+          "shopping_interest": 2.67,
+          "culture_interest": 3.43
+        }
+      },
+      {
+        "cluster_id": 3,
+        "label": "Relaxed Leisure Traveller",
+        "icon": "\ud83c\udf05",
+        "description": "Prefers laid-back itineraries, beaches and wellness retreats",
+        "count": 151,
+        "centroid": {
+          "nature_interest": 4.15,
+          "adventure_interest": 2.83,
+          "food_interest": 2.96,
+          "history_interest": 2.62,
+          "shopping_interest": 4.01,
+          "culture_interest": 2.79
+        }
+      }
+    ]
+  },
+  "regression": {
+    "status": "success",
+    "cost_estimation": {
+      "best_model": "Random Forest",
+      "ridge_regression": {
+        "mae": 15252.74,
+        "rmse": 23474.14,
+        "r2": 0.784
+      },
+      "random_forest": {
+        "mae": 7419.65,
+        "rmse": 12706.03,
+        "r2": 0.9367
+      },
+      "actual_vs_predicted": [
+        {
+          "actual": 48769.0,
+          "predicted": 51268.64616182114
+        },
+        {
+          "actual": 146337.0,
+          "predicted": 125541.18837240538
+        },
+        {
+          "actual": 53081.0,
+          "predicted": 36343.806625066936
+        },
+        {
+          "actual": 32575.0,
+          "predicted": 32964.38032111618
+        },
+        {
+          "actual": 68760.0,
+          "predicted": 68003.96722063476
+        },
+        {
+          "actual": 21677.0,
+          "predicted": 21694.712701451976
+        },
+        {
+          "actual": 79878.0,
+          "predicted": 83398.4617314336
+        },
+        {
+          "actual": 118578.0,
+          "predicted": 127021.97467316013
+        },
+        {
+          "actual": 139320.0,
+          "predicted": 141886.48355675538
+        },
+        {
+          "actual": 109300.0,
+          "predicted": 90719.68588455988
+        },
+        {
+          "actual": 21036.0,
+          "predicted": 23774.02193306427
+        },
+        {
+          "actual": 5136.0,
+          "predicted": 7213.2784206349215
+        },
+        {
+          "actual": 113104.0,
+          "predicted": 103468.78141666665
+        },
+        {
+          "actual": 28842.0,
+          "predicted": 28794.968361467523
+        },
+        {
+          "actual": 65523.0,
+          "predicted": 79263.6064894158
+        },
+        {
+          "actual": 99547.0,
+          "predicted": 104551.09576636761
+        },
+        {
+          "actual": 8317.0,
+          "predicted": 14276.083690586374
+        },
+        {
+          "actual": 9749.0,
+          "predicted": 11521.926232295482
+        },
+        {
+          "actual": 36404.0,
+          "predicted": 32182.62016270779
+        },
+        {
+          "actual": 30621.0,
+          "predicted": 28956.82470707975
+        },
+        {
+          "actual": 62372.0,
+          "predicted": 75813.75416250725
+        },
+        {
+          "actual": 38055.0,
+          "predicted": 34412.09264001145
+        },
+        {
+          "actual": 88818.0,
+          "predicted": 84980.78129653679
+        },
+        {
+          "actual": 154798.0,
+          "predicted": 147354.09833012818
+        },
+        {
+          "actual": 70435.0,
+          "predicted": 76985.51041323364
+        },
+        {
+          "actual": 47647.0,
+          "predicted": 56287.46810699862
+        },
+        {
+          "actual": 37402.0,
+          "predicted": 40619.82575396825
+        },
+        {
+          "actual": 23811.0,
+          "predicted": 30726.1835
+        },
+        {
+          "actual": 13856.0,
+          "predicted": 18415.447922035484
+        },
+        {
+          "actual": 25642.0,
+          "predicted": 24857.053144013065
+        },
+        {
+          "actual": 86365.0,
+          "predicted": 84640.5609405366
+        },
+        {
+          "actual": 30808.0,
+          "predicted": 37999.1351793066
+        },
+        {
+          "actual": 38340.0,
+          "predicted": 41341.1908390946
+        },
+        {
+          "actual": 50855.0,
+          "predicted": 59732.32449656215
+        },
+        {
+          "actual": 21002.0,
+          "predicted": 22399.422627428128
+        },
+        {
+          "actual": 31569.0,
+          "predicted": 23628.140513029448
+        },
+        {
+          "actual": 60354.0,
+          "predicted": 61820.67304697345
+        },
+        {
+          "actual": 58616.0,
+          "predicted": 64666.61258103009
+        },
+        {
+          "actual": 15728.0,
+          "predicted": 16768.55026190476
+        },
+        {
+          "actual": 31516.0,
+          "predicted": 32805.855216539996
+        },
+        {
+          "actual": 36597.0,
+          "predicted": 33361.01656341975
+        },
+        {
+          "actual": 108043.0,
+          "predicted": 90719.68588455988
+        },
+        {
+          "actual": 15316.0,
+          "predicted": 20861.46601018426
+        },
+        {
+          "actual": 127571.0,
+          "predicted": 123165.91262248858
+        },
+        {
+          "actual": 130910.0,
+          "predicted": 123780.07048631764
+        },
+        {
+          "actual": 71667.0,
+          "predicted": 63487.13670165614
+        },
+        {
+          "actual": 20217.0,
+          "predicted": 22293.94678175918
+        },
+        {
+          "actual": 29282.0,
+          "predicted": 29574.041379571896
+        },
+        {
+          "actual": 8970.0,
+          "predicted": 9534.787780081027
+        },
+        {
+          "actual": 34156.0,
+          "predicted": 32188.018040498133
+        }
+      ]
+    },
+    "time_estimation": {
+      "best_model": "Ridge Regression",
+      "ridge_regression": {
+        "mae": 6.12,
+        "rmse": 7.5,
+        "r2": 0.8293
+      },
+      "random_forest": {
+        "mae": 6.36,
+        "rmse": 7.9,
+        "r2": 0.8104
+      },
+      "actual_vs_predicted": [
+        {
+          "actual": 27.1,
+          "predicted": 36.01600213174711
+        },
+        {
+          "actual": 51.6,
+          "predicted": 62.33586956134823
+        },
+        {
+          "actual": 24.2,
+          "predicted": 21.167717773375053
+        },
+        {
+          "actual": 31.9,
+          "predicted": 28.856317642257828
+        },
+        {
+          "actual": 69.7,
+          "predicted": 62.132540189747544
+        },
+        {
+          "actual": 39.8,
+          "predicted": 42.548928289445904
+        },
+        {
+          "actual": 40.3,
+          "predicted": 49.26850443706402
+        },
+        {
+          "actual": 41.5,
+          "predicted": 49.772602978247235
+        },
+        {
+          "actual": 54.0,
+          "predicted": 63.36823194139873
+        },
+        {
+          "actual": 72.0,
+          "predicted": 64.07976519190053
+        },
+        {
+          "actual": 21.8,
+          "predicted": 21.093608912177686
+        },
+        {
+          "actual": 15.5,
+          "predicted": 13.320007101519806
+        },
+        {
+          "actual": 33.6,
+          "predicted": 42.95230585505978
+        },
+        {
+          "actual": 25.7,
+          "predicted": 28.727388808434952
+        },
+        {
+          "actual": 34.5,
+          "predicted": 34.72015488737489
+        },
+        {
+          "actual": 78.6,
+          "predicted": 63.985606571506224
+        },
+        {
+          "actual": 23.5,
+          "predicted": 20.650595804122435
+        },
+        {
+          "actual": 19.4,
+          "predicted": 21.62749376548157
+        },
+        {
+          "actual": 50.2,
+          "predicted": 63.404193996521784
+        },
+        {
+          "actual": 30.4,
+          "predicted": 29.505182943585343
+        },
+        {
+          "actual": 61.6,
+          "predicted": 49.529075805362325
+        },
+        {
+          "actual": 24.2,
+          "predicted": 28.852946032289157
+        },
+        {
+          "actual": 41.5,
+          "predicted": 56.549804463977665
+        },
+        {
+          "actual": 67.9,
+          "predicted": 56.26168411088917
+        },
+        {
+          "actual": 35.8,
+          "predicted": 49.734274822729404
+        },
+        {
+          "actual": 37.5,
+          "predicted": 35.98993904838274
+        },
+        {
+          "actual": 15.4,
+          "predicted": 14.869318831218752
+        },
+        {
+          "actual": 14.2,
+          "predicted": 13.529807911233174
+        },
+        {
+          "actual": 33.6,
+          "predicted": 35.71316255688011
+        },
+        {
+          "actual": 25.3,
+          "predicted": 21.861268322666284
+        },
+        {
+          "actual": 47.1,
+          "predicted": 50.313707424810524
+        },
+        {
+          "actual": 35.0,
+          "predicted": 35.242991138386515
+        },
+        {
+          "actual": 53.6,
+          "predicted": 56.6645841524832
+        },
+        {
+          "actual": 51.1,
+          "predicted": 56.47820969461253
+        },
+        {
+          "actual": 31.2,
+          "predicted": 26.808739346099586
+        },
+        {
+          "actual": 13.8,
+          "predicted": 14.321741311163802
+        },
+        {
+          "actual": 70.1,
+          "predicted": 63.48984911420208
+        },
+        {
+          "actual": 51.5,
+          "predicted": 40.95625192654202
+        },
+        {
+          "actual": 20.4,
+          "predicted": 27.81111465451132
+        },
+        {
+          "actual": 24.1,
+          "predicted": 29.268127208813116
+        },
+        {
+          "actual": 16.8,
+          "predicted": 21.120682487793033
+        },
+        {
+          "actual": 77.9,
+          "predicted": 64.07976519190053
+        },
+        {
+          "actual": 10.3,
+          "predicted": 14.889368590415696
+        },
+        {
+          "actual": 48.4,
+          "predicted": 43.24398578561651
+        },
+        {
+          "actual": 41.4,
+          "predicted": 48.981793980417685
+        },
+        {
+          "actual": 79.8,
+          "predicted": 62.329398123235556
+        },
+        {
+          "actual": 61.9,
+          "predicted": 48.25038211939321
+        },
+        {
+          "actual": 61.2,
+          "predicted": 49.445493960798586
+        },
+        {
+          "actual": 12.7,
+          "predicted": 14.19946526489711
+        },
+        {
+          "actual": 57.3,
+          "predicted": 63.387807523873946
+        }
+      ]
+    }
+  }
+}

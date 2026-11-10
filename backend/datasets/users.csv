@@ -1,0 +1,501 @@
+user_id,budget,days,group_size,group_type,food_preference,nature_interest,adventure_interest,food_interest,history_interest,shopping_interest,culture_interest,walking_comfort,accommodation_type,transport_preference,trip_pace
+1,27043,8,1,Friends,Vegetarian,1,1,4,1,5,3,High,Budget,Mixed,Relaxed
+2,39466,5,6,Friends,No Preference,4,3,2,5,5,3,Low,Luxury,Public Transport,Relaxed
+3,124076,3,7,Couple,Vegan,2,5,3,5,3,3,Medium,Luxury,Mixed,Relaxed
+4,140843,7,7,Couple,Vegetarian,2,1,2,3,2,2,Low,Budget,Public Transport,Balanced
+5,14580,8,1,Solo,No Preference,4,4,3,5,4,3,Medium,Standard,Rental,Packed
+6,19748,3,4,Family,No Preference,5,1,1,3,5,4,Medium,Budget,Rental,Relaxed
+7,12576,7,2,Family,Vegetarian,5,5,5,5,3,4,Low,Luxury,Rental,Relaxed
+8,32640,8,1,Solo,Non-Vegetarian,3,1,3,4,2,4,Low,Standard,Mixed,Balanced
+9,34129,5,5,Solo,No Preference,3,1,1,1,5,4,Low,Budget,Public Transport,Balanced
+10,85445,9,5,Friends,Vegetarian,2,2,2,3,5,5,High,Budget,Cab,Relaxed
+11,23415,2,6,Friends,Vegan,1,5,1,2,1,3,High,Budget,Public Transport,Packed
+12,144293,8,5,Solo,Vegetarian,2,2,3,1,5,1,Medium,Budget,Rental,Relaxed
+13,61949,9,2,Family,Vegan,2,2,2,3,3,2,Low,Standard,Mixed,Relaxed
+14,19858,8,7,Friends,Vegan,5,5,2,3,3,4,Medium,Standard,Cab,Balanced
+15,21941,8,2,Family,Vegetarian,1,4,2,3,1,5,Low,Standard,Mixed,Relaxed
+16,10449,6,2,Couple,Vegetarian,2,5,3,3,3,3,High,Budget,Rental,Packed
+17,21090,5,4,Family,Vegetarian,3,3,3,5,2,5,Medium,Luxury,Rental,Relaxed
+18,10124,6,6,Solo,Vegetarian,1,4,2,2,1,2,Low,Luxury,Public Transport,Balanced
+19,11190,7,3,Friends,No Preference,5,1,2,4,1,1,High,Budget,Mixed,Packed
+20,32022,3,4,Friends,Non-Vegetarian,2,5,2,3,3,3,High,Luxury,Cab,Packed
+21,146476,7,3,Friends,Vegan,1,5,4,2,1,1,High,Standard,Cab,Balanced
+22,21288,5,2,Friends,Vegetarian,5,2,4,2,1,4,High,Standard,Public Transport,Relaxed
+23,36785,9,3,Solo,Non-Vegetarian,5,1,1,5,5,4,Medium,Luxury,Cab,Balanced
+24,8735,6,4,Family,Vegan,2,4,4,3,4,1,Medium,Standard,Rental,Balanced
+25,35673,3,3,Solo,No Preference,5,2,4,3,4,1,Low,Luxury,Public Transport,Balanced
+26,14765,5,5,Friends,Vegan,1,2,2,5,2,4,Medium,Budget,Mixed,Balanced
+27,23512,2,1,Friends,Vegan,3,1,5,4,4,2,Medium,Budget,Mixed,Packed
+28,10256,9,6,Family,No Preference,5,3,1,5,4,3,Low,Budget,Public Transport,Packed
+29,145881,2,5,Couple,Vegetarian,2,3,5,1,1,1,Low,Budget,Rental,Packed
+30,9033,8,3,Couple,Non-Vegetarian,3,3,2,4,5,1,Medium,Luxury,Rental,Relaxed
+31,26260,2,6,Family,Non-Vegetarian,2,2,5,3,2,1,Medium,Standard,Public Transport,Packed
+32,21359,6,5,Solo,Vegan,4,4,5,2,3,3,High,Standard,Rental,Packed
+33,117834,9,6,Couple,No Preference,2,3,4,2,5,2,Low,Budget,Rental,Packed
+34,77219,6,5,Family,Vegan,2,1,4,2,1,3,Low,Standard,Mixed,Relaxed
+35,8797,6,5,Couple,Non-Vegetarian,4,1,1,3,5,1,Low,Budget,Cab,Relaxed
+36,28224,2,2,Friends,Non-Vegetarian,2,2,3,2,3,1,High,Luxury,Mixed,Packed
+37,6205,6,1,Solo,Vegetarian,3,2,4,2,5,1,High,Budget,Mixed,Relaxed
+38,92853,8,5,Family,Vegetarian,1,5,3,3,3,5,Low,Budget,Public Transport,Balanced
+39,12311,4,7,Couple,Non-Vegetarian,4,1,2,3,4,1,Low,Luxury,Rental,Packed
+40,16481,2,7,Friends,No Preference,2,5,1,1,3,3,High,Budget,Mixed,Balanced
+41,112258,5,7,Family,Non-Vegetarian,3,3,4,4,5,5,Medium,Luxury,Rental,Balanced
+42,11150,4,5,Friends,No Preference,5,4,2,2,1,5,High,Standard,Rental,Balanced
+43,9566,9,6,Solo,Non-Vegetarian,5,4,3,4,2,4,Low,Standard,Cab,Packed
+44,13173,3,3,Solo,Non-Vegetarian,1,2,5,1,1,3,Medium,Standard,Cab,Relaxed
+45,96133,6,2,Family,Vegetarian,2,1,5,1,2,4,High,Budget,Cab,Balanced
+46,121182,9,2,Family,Vegetarian,1,5,2,5,1,2,Low,Standard,Cab,Balanced
+47,18067,4,5,Family,Vegan,2,5,5,3,3,4,Low,Luxury,Rental,Packed
+48,63150,7,5,Family,Vegetarian,2,4,4,3,3,4,High,Budget,Cab,Packed
+49,15481,6,1,Solo,No Preference,1,1,1,5,3,2,Low,Luxury,Rental,Packed
+50,146667,7,2,Family,Vegan,5,4,3,3,1,5,Low,Standard,Public Transport,Packed
+51,41341,4,7,Solo,Vegetarian,5,1,2,1,4,3,Medium,Budget,Public Transport,Balanced
+52,69711,8,2,Solo,Non-Vegetarian,2,5,1,3,2,3,High,Budget,Cab,Packed
+53,33803,4,2,Friends,Vegetarian,3,4,4,5,2,3,Low,Luxury,Mixed,Balanced
+54,38510,9,1,Family,Vegetarian,1,5,2,1,5,2,Medium,Standard,Rental,Packed
+55,142650,6,2,Family,No Preference,3,3,4,5,1,5,Medium,Budget,Mixed,Relaxed
+56,123691,3,6,Solo,Vegan,4,5,1,1,3,5,Medium,Standard,Cab,Balanced
+57,9388,7,7,Solo,Vegan,1,1,4,4,3,2,Low,Budget,Public Transport,Packed
+58,96638,4,6,Solo,Non-Vegetarian,1,4,4,3,4,5,High,Standard,Public Transport,Packed
+59,8564,2,2,Solo,Vegetarian,2,3,5,5,1,1,High,Standard,Public Transport,Relaxed
+60,33850,9,3,Family,Vegan,5,5,1,1,4,5,Medium,Luxury,Public Transport,Packed
+61,143320,3,1,Friends,No Preference,1,5,3,3,2,4,High,Standard,Mixed,Packed
+62,8972,5,5,Family,Vegetarian,5,1,2,5,5,3,Medium,Luxury,Mixed,Balanced
+63,11183,7,3,Family,No Preference,4,1,3,3,1,5,High,Budget,Public Transport,Relaxed
+64,9286,6,3,Solo,Non-Vegetarian,1,3,2,2,3,5,Medium,Luxury,Rental,Balanced
+65,31077,8,2,Family,Vegetarian,3,1,1,1,2,4,Low,Luxury,Mixed,Balanced
+66,10352,5,7,Couple,Vegetarian,5,4,4,4,2,4,High,Budget,Mixed,Balanced
+67,13073,3,2,Couple,No Preference,5,4,4,3,3,4,Low,Luxury,Public Transport,Packed
+68,12813,8,2,Couple,Non-Vegetarian,2,5,4,1,3,5,Low,Luxury,Rental,Packed
+69,7844,3,7,Couple,No Preference,3,3,3,1,4,4,Low,Budget,Rental,Relaxed
+70,9179,4,3,Solo,Non-Vegetarian,4,2,5,3,1,1,Medium,Luxury,Mixed,Packed
+71,6607,6,5,Family,Vegan,3,2,4,3,5,4,Low,Standard,Rental,Balanced
+72,5526,2,6,Family,No Preference,4,1,1,4,5,5,Medium,Luxury,Mixed,Relaxed
+73,39849,7,7,Friends,Non-Vegetarian,3,5,1,1,4,1,High,Standard,Rental,Relaxed
+74,11731,7,6,Family,No Preference,1,2,2,4,1,2,Low,Budget,Public Transport,Relaxed
+75,38116,3,6,Friends,Non-Vegetarian,2,2,2,2,4,1,High,Budget,Rental,Packed
+76,33440,8,1,Couple,No Preference,2,4,4,3,3,4,Medium,Standard,Cab,Balanced
+77,15514,3,6,Friends,Non-Vegetarian,4,4,5,1,5,3,Medium,Luxury,Rental,Balanced
+78,123847,6,7,Family,Vegan,4,2,2,3,5,1,High,Luxury,Mixed,Balanced
+79,27732,8,1,Friends,No Preference,1,5,2,5,4,5,Medium,Standard,Public Transport,Packed
+80,21563,9,4,Couple,Vegan,2,4,2,3,3,2,Medium,Budget,Mixed,Packed
+81,5529,9,4,Family,Non-Vegetarian,2,4,2,5,5,5,Low,Standard,Cab,Relaxed
+82,15013,5,2,Friends,Non-Vegetarian,1,3,1,1,4,2,High,Budget,Public Transport,Packed
+83,35939,8,7,Friends,Vegan,2,3,2,5,2,4,Medium,Budget,Public Transport,Relaxed
+84,28994,9,6,Family,No Preference,1,3,5,5,4,5,Low,Budget,Mixed,Packed
+85,33309,5,2,Couple,Non-Vegetarian,1,5,4,2,5,1,High,Luxury,Cab,Relaxed
+86,21980,7,4,Couple,No Preference,5,2,3,3,2,1,Medium,Budget,Public Transport,Packed
+87,38735,8,4,Couple,No Preference,5,4,2,2,4,2,Low,Budget,Rental,Relaxed
+88,77380,8,2,Solo,Vegan,2,3,2,2,2,1,Medium,Luxury,Mixed,Relaxed
+89,25055,2,1,Friends,Vegan,5,5,1,2,4,2,Medium,Standard,Rental,Relaxed
+90,36592,6,7,Solo,Vegan,4,2,5,4,3,2,Medium,Budget,Public Transport,Packed
+91,32772,7,6,Friends,Vegetarian,5,1,4,2,5,3,Low,Budget,Public Transport,Relaxed
+92,13927,4,6,Couple,Non-Vegetarian,2,1,3,5,2,2,Medium,Budget,Public Transport,Balanced
+93,15011,6,7,Family,No Preference,3,2,4,3,3,5,Low,Luxury,Rental,Packed
+94,9431,4,3,Friends,No Preference,5,5,3,2,5,4,Low,Standard,Rental,Relaxed
+95,28467,3,4,Couple,Non-Vegetarian,2,1,5,4,2,1,Medium,Luxury,Rental,Packed
+96,12052,3,5,Couple,No Preference,4,4,4,1,4,5,Medium,Luxury,Rental,Relaxed
+97,16300,3,1,Friends,Non-Vegetarian,2,1,5,2,1,2,High,Budget,Mixed,Balanced
+98,38058,3,1,Couple,Vegan,4,2,1,2,5,1,High,Standard,Public Transport,Packed
+99,26695,5,7,Family,Vegan,2,1,5,5,1,1,Medium,Luxury,Rental,Relaxed
+100,38164,4,7,Family,No Preference,3,4,2,2,5,4,Low,Budget,Mixed,Packed
+101,5072,8,4,Solo,Vegetarian,4,2,4,5,4,3,Low,Standard,Mixed,Balanced
+102,22979,7,6,Couple,Vegan,4,2,1,3,2,4,Medium,Standard,Mixed,Relaxed
+103,8374,2,7,Family,No Preference,1,4,4,3,5,4,High,Standard,Public Transport,Relaxed
+104,15148,3,7,Family,Vegetarian,5,4,4,2,5,4,Low,Luxury,Cab,Relaxed
+105,75585,2,1,Friends,Vegan,4,2,4,2,3,3,High,Standard,Mixed,Relaxed
+106,19107,7,2,Solo,Vegan,2,3,4,1,5,3,Medium,Luxury,Cab,Packed
+107,20907,2,2,Solo,Vegetarian,1,4,1,5,4,3,High,Budget,Cab,Relaxed
+108,10772,2,7,Family,Vegetarian,4,4,4,5,4,2,Low,Luxury,Cab,Relaxed
+109,9349,4,5,Friends,Non-Vegetarian,2,1,2,3,2,5,High,Luxury,Public Transport,Packed
+110,10448,8,4,Solo,No Preference,4,1,5,4,4,5,Medium,Luxury,Cab,Packed
+111,39254,4,7,Friends,No Preference,5,5,5,2,3,5,Medium,Standard,Rental,Relaxed
+112,11793,6,1,Solo,Vegetarian,2,2,5,5,5,2,Low,Budget,Mixed,Relaxed
+113,19795,5,7,Solo,Non-Vegetarian,4,2,4,4,2,3,Low,Budget,Mixed,Relaxed
+114,104041,2,1,Family,Vegetarian,1,1,2,4,5,1,Medium,Standard,Cab,Relaxed
+115,23906,7,1,Friends,Vegetarian,4,5,3,5,4,1,High,Budget,Mixed,Relaxed
+116,47788,4,1,Solo,No Preference,5,2,4,3,4,3,High,Luxury,Mixed,Packed
+117,13964,7,7,Family,No Preference,4,1,1,1,2,2,High,Budget,Mixed,Balanced
+118,99560,8,6,Friends,Non-Vegetarian,2,5,4,4,3,2,Medium,Budget,Public Transport,Packed
+119,24503,4,2,Friends,Vegetarian,2,1,1,3,4,2,Low,Standard,Cab,Balanced
+120,5685,9,6,Friends,Vegan,1,4,1,2,5,5,Medium,Budget,Cab,Balanced
+121,12527,9,3,Family,Non-Vegetarian,3,1,4,5,5,2,Medium,Budget,Public Transport,Packed
+122,11579,4,7,Family,No Preference,5,3,5,5,1,3,High,Standard,Rental,Packed
+123,20926,9,5,Friends,No Preference,2,2,1,4,5,3,Low,Luxury,Mixed,Balanced
+124,26754,9,6,Friends,Vegan,3,2,1,5,1,4,Medium,Standard,Cab,Balanced
+125,53944,2,4,Friends,No Preference,3,3,5,2,4,5,Medium,Standard,Rental,Balanced
+126,6828,8,5,Couple,Non-Vegetarian,4,4,1,5,4,1,High,Luxury,Mixed,Relaxed
+127,31087,8,4,Family,No Preference,2,2,3,4,4,3,Low,Luxury,Cab,Packed
+128,24324,7,5,Friends,No Preference,3,5,4,1,1,2,High,Budget,Rental,Packed
+129,56184,6,1,Solo,Non-Vegetarian,4,4,3,4,3,1,Medium,Budget,Public Transport,Relaxed
+130,13329,2,6,Couple,Non-Vegetarian,5,1,3,5,3,5,High,Standard,Rental,Balanced
+131,134788,6,4,Solo,Vegetarian,2,5,4,2,4,2,High,Budget,Mixed,Relaxed
+132,5685,8,4,Family,Vegetarian,4,5,4,2,4,3,High,Standard,Mixed,Balanced
+133,24833,5,1,Solo,No Preference,3,4,2,2,3,1,Low,Standard,Public Transport,Packed
+134,29289,9,7,Family,Vegan,5,2,2,4,1,5,Medium,Budget,Cab,Relaxed
+135,8670,4,1,Solo,No Preference,4,1,5,1,1,2,Low,Luxury,Cab,Relaxed
+136,34446,6,5,Couple,No Preference,2,3,1,1,1,2,Medium,Standard,Cab,Balanced
+137,8648,7,1,Couple,Non-Vegetarian,2,3,5,4,4,3,Medium,Luxury,Mixed,Packed
+138,6854,6,4,Couple,Vegan,4,4,5,4,4,3,Low,Budget,Mixed,Balanced
+139,22193,9,6,Friends,No Preference,4,1,2,4,3,4,High,Budget,Rental,Balanced
+140,10546,3,4,Family,Vegetarian,4,5,5,1,2,2,Medium,Standard,Rental,Packed
+141,5258,7,1,Family,Vegetarian,5,4,3,5,4,3,Low,Luxury,Cab,Packed
+142,36632,6,5,Couple,Vegetarian,2,4,4,2,3,3,Low,Budget,Rental,Relaxed
+143,128708,5,5,Solo,No Preference,2,3,4,4,1,3,Medium,Luxury,Mixed,Relaxed
+144,15587,9,5,Family,No Preference,2,1,5,3,4,2,Low,Luxury,Rental,Balanced
+145,16098,9,6,Solo,Vegetarian,4,3,3,3,1,4,Low,Standard,Cab,Packed
+146,25487,7,1,Family,No Preference,1,3,4,2,1,5,High,Budget,Public Transport,Relaxed
+147,95267,8,1,Friends,No Preference,5,2,3,1,3,3,High,Luxury,Rental,Balanced
+148,105677,9,6,Friends,Vegan,3,4,1,1,2,1,High,Standard,Rental,Packed
+149,64264,6,7,Couple,Vegan,1,3,4,1,4,3,High,Standard,Mixed,Balanced
+150,6460,7,1,Family,Vegetarian,4,1,3,5,3,1,High,Standard,Cab,Relaxed
+151,90139,2,5,Couple,Non-Vegetarian,1,5,1,4,3,3,Medium,Standard,Public Transport,Packed
+152,119151,4,4,Solo,Vegetarian,5,1,5,1,4,3,Low,Standard,Mixed,Relaxed
+153,12468,7,4,Couple,Vegan,1,3,2,4,5,5,High,Standard,Mixed,Relaxed
+154,27466,5,4,Family,Non-Vegetarian,4,5,3,4,2,2,High,Luxury,Public Transport,Relaxed
+155,80197,3,1,Solo,No Preference,2,3,3,4,2,1,Low,Budget,Public Transport,Relaxed
+156,13333,9,1,Solo,Vegetarian,1,1,3,4,4,1,Medium,Luxury,Public Transport,Relaxed
+157,32087,7,6,Solo,Vegetarian,5,1,1,1,5,3,High,Luxury,Rental,Relaxed
+158,19492,4,3,Solo,Vegan,5,1,4,3,4,5,Low,Budget,Mixed,Relaxed
+159,104089,3,5,Family,Vegetarian,3,5,1,4,2,2,Medium,Standard,Public Transport,Packed
+160,31977,9,4,Solo,Vegetarian,4,2,3,1,2,5,Low,Standard,Cab,Packed
+161,110194,2,7,Family,Vegan,4,3,5,2,5,3,Medium,Standard,Public Transport,Relaxed
+162,7466,8,2,Solo,Vegetarian,1,1,1,4,5,3,Medium,Luxury,Public Transport,Packed
+163,19020,5,4,Couple,No Preference,3,3,4,4,1,3,Medium,Luxury,Public Transport,Balanced
+164,35384,9,4,Solo,Vegan,4,5,1,1,4,3,Low,Standard,Mixed,Balanced
+165,7011,7,3,Solo,Vegetarian,5,2,4,4,1,4,Low,Budget,Cab,Relaxed
+166,24591,4,5,Family,Non-Vegetarian,3,3,3,2,3,2,Medium,Luxury,Public Transport,Packed
+167,9340,3,4,Solo,Vegan,4,2,4,1,1,5,Low,Luxury,Rental,Balanced
+168,99500,7,4,Solo,Vegetarian,1,1,5,2,5,5,High,Luxury,Rental,Packed
+169,14569,6,6,Friends,No Preference,5,4,3,4,3,1,High,Budget,Rental,Relaxed
+170,28283,4,4,Couple,No Preference,1,2,3,5,5,4,Low,Budget,Public Transport,Balanced
+171,25238,3,3,Couple,Vegetarian,4,5,3,4,5,1,Low,Standard,Cab,Balanced
+172,19761,9,6,Friends,Vegan,2,4,3,1,3,3,Low,Luxury,Cab,Relaxed
+173,30309,4,7,Friends,Vegan,4,5,3,1,4,5,Low,Budget,Public Transport,Relaxed
+174,8935,4,3,Solo,Vegetarian,5,2,5,3,3,2,Medium,Standard,Public Transport,Balanced
+175,30906,7,7,Friends,Vegan,2,2,1,3,1,4,Low,Budget,Public Transport,Packed
+176,82727,5,1,Friends,Vegetarian,4,3,2,1,2,4,Medium,Luxury,Cab,Packed
+177,35039,6,5,Family,Non-Vegetarian,5,5,3,3,2,1,High,Standard,Cab,Balanced
+178,21465,8,4,Couple,Vegan,3,3,5,5,1,1,Low,Standard,Public Transport,Relaxed
+179,38954,7,7,Solo,Vegan,2,2,4,4,4,2,Medium,Standard,Mixed,Balanced
+180,14203,7,7,Family,Vegetarian,3,2,4,2,2,2,High,Luxury,Public Transport,Relaxed
+181,12758,6,2,Couple,No Preference,1,2,1,5,4,1,Low,Luxury,Public Transport,Relaxed
+182,10738,5,2,Friends,Vegan,5,3,1,4,3,5,Low,Standard,Rental,Balanced
+183,132122,8,2,Friends,Vegan,5,5,3,5,5,1,High,Budget,Mixed,Packed
+184,9888,4,3,Family,Vegetarian,2,1,5,4,1,3,High,Standard,Mixed,Balanced
+185,13418,2,5,Couple,Vegetarian,5,4,2,1,1,3,Medium,Standard,Public Transport,Relaxed
+186,33156,9,7,Family,Non-Vegetarian,3,4,4,4,5,4,Medium,Standard,Public Transport,Relaxed
+187,113016,7,2,Solo,No Preference,5,2,5,5,2,1,Medium,Standard,Rental,Relaxed
+188,17158,7,4,Family,Vegetarian,3,1,4,2,4,2,Medium,Budget,Mixed,Packed
+189,8227,5,2,Family,Vegan,5,2,3,1,2,5,Medium,Luxury,Mixed,Relaxed
+190,13224,2,6,Family,No Preference,3,5,4,5,4,3,Low,Luxury,Mixed,Relaxed
+191,27903,6,2,Couple,No Preference,5,4,4,2,4,2,Low,Luxury,Public Transport,Balanced
+192,11683,3,4,Friends,Non-Vegetarian,1,2,1,2,3,5,High,Luxury,Public Transport,Relaxed
+193,11599,4,3,Solo,Vegetarian,4,4,1,1,2,2,Low,Standard,Public Transport,Relaxed
+194,140000,4,2,Friends,No Preference,5,2,5,5,2,2,Medium,Budget,Rental,Balanced
+195,20637,6,3,Family,Vegetarian,1,3,5,2,3,4,Medium,Budget,Mixed,Packed
+196,136063,7,1,Family,Vegan,5,1,2,3,2,2,Medium,Luxury,Public Transport,Packed
+197,64820,3,7,Family,Vegetarian,2,4,1,3,1,3,Medium,Standard,Public Transport,Balanced
+198,37601,5,2,Friends,Vegan,5,2,4,2,3,5,High,Budget,Public Transport,Packed
+199,8947,2,6,Family,Vegan,3,2,3,1,1,5,High,Budget,Rental,Relaxed
+200,22778,3,6,Solo,Non-Vegetarian,5,4,5,4,5,3,Medium,Budget,Cab,Relaxed
+201,13345,3,3,Friends,Vegetarian,1,5,2,1,1,2,Low,Budget,Public Transport,Relaxed
+202,17871,5,2,Friends,Vegan,5,4,2,5,5,4,High,Standard,Mixed,Packed
+203,8180,9,7,Couple,No Preference,1,3,4,2,3,5,Low,Luxury,Rental,Packed
+204,117801,3,1,Solo,Vegan,5,4,5,5,5,1,Low,Budget,Public Transport,Balanced
+205,101240,8,7,Couple,Vegetarian,5,4,3,3,4,4,Medium,Luxury,Rental,Packed
+206,37412,7,6,Solo,Vegetarian,3,3,1,3,4,5,Medium,Budget,Mixed,Relaxed
+207,26834,3,3,Couple,Vegan,1,1,3,2,1,1,High,Budget,Rental,Relaxed
+208,7800,2,1,Friends,No Preference,2,3,1,2,5,1,Low,Standard,Rental,Relaxed
+209,7524,5,4,Solo,Vegan,1,1,4,5,1,1,High,Standard,Rental,Balanced
+210,64618,9,6,Couple,Vegetarian,2,5,4,3,5,3,Medium,Budget,Public Transport,Relaxed
+211,10287,9,6,Family,Vegetarian,3,3,4,3,3,2,Low,Luxury,Mixed,Packed
+212,34477,9,7,Couple,No Preference,3,2,3,3,2,4,Low,Budget,Mixed,Balanced
+213,16424,5,6,Solo,Non-Vegetarian,3,1,2,1,3,5,High,Standard,Cab,Packed
+214,21432,8,7,Friends,Non-Vegetarian,3,5,4,5,2,2,Low,Budget,Mixed,Balanced
+215,10693,7,2,Solo,No Preference,1,5,2,2,4,1,Low,Luxury,Public Transport,Packed
+216,28065,9,2,Family,No Preference,2,2,3,3,5,4,High,Budget,Cab,Packed
+217,31193,7,3,Couple,Vegan,3,2,1,1,1,3,High,Standard,Public Transport,Relaxed
+218,7642,8,3,Couple,Vegan,5,3,4,2,1,5,Low,Budget,Public Transport,Packed
+219,105618,5,1,Solo,Non-Vegetarian,2,1,2,2,3,2,High,Luxury,Public Transport,Packed
+220,130009,5,1,Friends,Vegetarian,1,2,2,4,5,1,Low,Luxury,Rental,Packed
+221,10119,6,3,Family,Non-Vegetarian,3,5,2,3,2,1,High,Standard,Cab,Packed
+222,16361,5,3,Friends,Vegetarian,3,2,1,3,3,2,Low,Budget,Public Transport,Balanced
+223,12786,5,1,Couple,Vegetarian,1,2,3,5,2,5,Medium,Luxury,Rental,Balanced
+224,32063,4,5,Friends,No Preference,2,2,3,2,1,5,Medium,Luxury,Public Transport,Packed
+225,18278,7,6,Couple,Vegetarian,1,5,5,5,1,2,Low,Standard,Rental,Packed
+226,29638,5,5,Solo,No Preference,4,4,3,2,1,5,Low,Luxury,Cab,Relaxed
+227,7591,3,1,Couple,Non-Vegetarian,1,1,5,5,1,3,Low,Luxury,Rental,Balanced
+228,7472,9,3,Couple,Vegetarian,1,5,5,5,4,5,Low,Luxury,Mixed,Relaxed
+229,23837,7,6,Solo,Non-Vegetarian,1,3,2,3,2,2,High,Luxury,Mixed,Balanced
+230,14928,8,6,Friends,Vegan,4,3,5,1,1,1,High,Luxury,Cab,Packed
+231,23640,4,5,Couple,Vegetarian,2,5,5,1,5,5,Low,Luxury,Mixed,Balanced
+232,36772,4,7,Couple,Vegetarian,5,1,1,1,3,1,High,Budget,Rental,Packed
+233,8700,2,6,Family,Vegetarian,1,5,1,1,3,4,High,Standard,Public Transport,Packed
+234,44434,2,5,Friends,Vegan,3,5,1,2,3,2,Medium,Standard,Mixed,Packed
+235,116067,5,1,Solo,Vegetarian,2,2,5,5,4,5,High,Standard,Public Transport,Packed
+236,29005,4,7,Couple,No Preference,3,4,4,3,2,3,High,Standard,Rental,Balanced
+237,24471,8,4,Couple,Vegetarian,1,4,1,2,2,5,Low,Standard,Rental,Balanced
+238,8792,5,5,Friends,Vegan,4,1,4,5,2,1,High,Luxury,Rental,Relaxed
+239,15489,7,2,Family,Non-Vegetarian,5,5,3,3,1,5,High,Standard,Cab,Balanced
+240,23841,9,1,Couple,Non-Vegetarian,2,4,3,2,2,1,Medium,Standard,Public Transport,Packed
+241,34109,2,6,Solo,No Preference,4,5,2,5,3,4,High,Standard,Cab,Packed
+242,16230,8,6,Family,No Preference,2,5,4,4,1,4,Low,Budget,Rental,Balanced
+243,60884,8,5,Family,No Preference,2,1,3,5,5,2,Medium,Luxury,Public Transport,Balanced
+244,9988,5,4,Friends,Vegetarian,3,5,2,3,5,3,High,Luxury,Rental,Relaxed
+245,17850,4,6,Friends,Non-Vegetarian,4,5,3,2,1,4,High,Luxury,Mixed,Packed
+246,26618,6,2,Friends,Vegetarian,4,5,5,3,3,2,Medium,Budget,Rental,Relaxed
+247,124178,4,6,Couple,Vegan,4,5,3,5,3,5,Medium,Standard,Public Transport,Balanced
+248,39229,9,3,Solo,Non-Vegetarian,3,2,3,5,4,5,High,Budget,Rental,Packed
+249,7904,4,1,Family,Vegan,4,1,4,2,1,5,Medium,Standard,Cab,Balanced
+250,6135,8,4,Family,Non-Vegetarian,4,3,4,2,5,5,Medium,Budget,Public Transport,Balanced
+251,38989,9,3,Couple,No Preference,5,2,1,4,4,3,High,Budget,Rental,Packed
+252,128151,2,3,Friends,No Preference,5,2,1,1,5,4,High,Budget,Rental,Relaxed
+253,112489,4,6,Friends,Non-Vegetarian,2,4,2,2,3,4,Medium,Standard,Mixed,Balanced
+254,142274,2,4,Family,Vegan,3,5,4,2,4,1,Low,Budget,Mixed,Relaxed
+255,52453,8,7,Couple,Non-Vegetarian,3,4,5,2,3,4,Medium,Luxury,Public Transport,Relaxed
+256,34166,8,2,Solo,No Preference,2,1,5,1,2,3,Low,Luxury,Cab,Packed
+257,98870,2,1,Family,No Preference,2,3,5,2,5,1,High,Standard,Rental,Packed
+258,5226,8,4,Friends,Vegetarian,5,5,1,1,5,3,Low,Budget,Mixed,Balanced
+259,5269,8,1,Solo,No Preference,3,4,5,3,4,3,Low,Standard,Cab,Balanced
+260,33678,7,6,Family,Vegan,2,3,3,4,1,3,High,Budget,Rental,Relaxed
+261,12869,8,6,Solo,Non-Vegetarian,4,4,5,5,2,2,Low,Budget,Public Transport,Balanced
+262,27768,2,2,Family,Non-Vegetarian,3,5,3,2,3,5,High,Budget,Public Transport,Relaxed
+263,34727,3,7,Solo,Non-Vegetarian,5,2,5,2,5,3,Low,Standard,Public Transport,Packed
+264,28778,5,2,Family,Vegan,5,4,1,1,4,1,Medium,Luxury,Public Transport,Packed
+265,18871,6,6,Solo,Vegetarian,3,4,1,3,2,3,High,Luxury,Rental,Packed
+266,32888,6,5,Family,Vegan,2,5,5,3,1,1,High,Luxury,Rental,Relaxed
+267,27391,4,1,Couple,Vegan,4,2,5,3,4,4,Medium,Standard,Public Transport,Packed
+268,15307,2,4,Friends,No Preference,3,2,4,3,3,4,Low,Standard,Cab,Relaxed
+269,28255,5,6,Family,Vegan,1,4,5,1,2,3,Medium,Standard,Cab,Balanced
+270,24497,3,3,Friends,No Preference,5,3,2,3,1,3,Low,Budget,Mixed,Balanced
+271,118257,8,4,Friends,No Preference,1,1,2,3,2,5,Low,Budget,Mixed,Balanced
+272,11589,6,7,Couple,Non-Vegetarian,4,1,5,1,2,5,Medium,Budget,Rental,Packed
+273,13662,4,6,Family,Vegan,3,2,2,1,4,1,High,Luxury,Public Transport,Relaxed
+274,16716,4,5,Couple,Vegetarian,5,1,3,2,1,4,High,Standard,Rental,Packed
+275,25956,9,5,Solo,Non-Vegetarian,4,2,1,2,5,2,High,Luxury,Mixed,Relaxed
+276,14803,6,7,Solo,Vegetarian,1,2,2,5,1,3,Low,Standard,Rental,Relaxed
+277,23848,6,6,Friends,Non-Vegetarian,5,5,3,5,1,5,High,Standard,Public Transport,Balanced
+278,15406,8,5,Couple,No Preference,3,2,2,4,1,1,Medium,Standard,Public Transport,Packed
+279,93822,5,3,Solo,Vegan,3,4,4,3,2,4,Low,Budget,Public Transport,Packed
+280,20184,6,6,Couple,No Preference,5,4,3,4,4,5,Medium,Budget,Cab,Packed
+281,19887,2,7,Solo,Non-Vegetarian,4,3,2,5,1,3,Medium,Standard,Cab,Balanced
+282,31244,3,3,Couple,Vegetarian,5,2,5,4,4,5,High,Standard,Mixed,Balanced
+283,32831,6,2,Family,Non-Vegetarian,3,3,2,3,3,1,High,Budget,Public Transport,Packed
+284,133474,5,6,Family,Vegan,3,5,3,2,3,1,High,Standard,Public Transport,Balanced
+285,16814,8,5,Friends,No Preference,1,4,2,5,1,2,Medium,Standard,Public Transport,Balanced
+286,11782,9,2,Couple,Vegan,3,3,5,5,5,1,Medium,Standard,Mixed,Relaxed
+287,14169,2,3,Couple,Vegan,5,3,2,1,4,3,High,Luxury,Mixed,Balanced
+288,136131,3,2,Friends,Vegan,3,4,4,5,3,1,High,Budget,Public Transport,Relaxed
+289,13711,5,6,Solo,Vegan,4,5,2,5,4,4,Low,Budget,Public Transport,Packed
+290,27515,4,5,Couple,Vegetarian,5,3,4,5,4,1,Medium,Luxury,Mixed,Balanced
+291,7965,7,4,Couple,Vegetarian,3,2,5,3,5,4,Medium,Luxury,Mixed,Relaxed
+292,12910,8,7,Solo,No Preference,1,4,2,2,5,4,High,Standard,Rental,Relaxed
+293,100380,6,2,Solo,Non-Vegetarian,4,3,2,3,1,5,Low,Luxury,Rental,Packed
+294,37337,3,2,Family,No Preference,1,5,3,1,3,5,High,Standard,Rental,Balanced
+295,51984,5,1,Friends,No Preference,5,2,2,2,4,4,High,Standard,Rental,Balanced
+296,12498,3,3,Solo,Non-Vegetarian,2,1,2,4,4,4,Low,Budget,Cab,Balanced
+297,24036,3,7,Solo,Non-Vegetarian,5,1,4,2,3,3,Low,Standard,Mixed,Balanced
+298,20543,2,2,Family,Vegetarian,2,4,4,2,1,3,Medium,Luxury,Cab,Packed
+299,47452,6,4,Family,Vegetarian,5,2,5,2,2,2,Medium,Standard,Mixed,Relaxed
+300,29541,5,1,Family,Vegetarian,5,4,4,2,3,5,High,Luxury,Public Transport,Relaxed
+301,10874,7,4,Family,Vegetarian,5,5,4,1,1,4,Medium,Budget,Public Transport,Packed
+302,38382,8,3,Solo,Vegetarian,3,1,4,3,5,3,High,Budget,Public Transport,Relaxed
+303,24726,3,5,Solo,No Preference,3,1,1,4,4,3,High,Luxury,Cab,Packed
+304,21754,2,7,Couple,Vegetarian,1,1,2,5,4,5,High,Budget,Rental,Packed
+305,22531,5,1,Friends,No Preference,3,3,3,5,3,5,Low,Budget,Cab,Packed
+306,10162,3,2,Family,Vegan,2,3,5,4,1,4,High,Luxury,Rental,Packed
+307,11582,4,6,Couple,Vegan,3,4,1,2,4,1,High,Luxury,Mixed,Balanced
+308,15375,6,4,Solo,No Preference,2,4,3,3,5,5,Medium,Budget,Mixed,Relaxed
+309,23792,2,4,Couple,No Preference,3,1,2,3,4,1,High,Budget,Rental,Balanced
+310,12707,2,6,Solo,Vegan,1,4,3,4,1,3,Medium,Standard,Mixed,Relaxed
+311,54327,7,2,Friends,Vegan,5,4,2,1,2,1,Medium,Budget,Public Transport,Balanced
+312,15390,7,3,Family,Vegetarian,1,4,5,4,2,4,Low,Luxury,Cab,Balanced
+313,39064,2,5,Friends,No Preference,5,3,4,2,4,3,High,Luxury,Mixed,Balanced
+314,10275,8,3,Friends,Vegan,4,5,1,2,1,4,Medium,Standard,Cab,Packed
+315,111947,3,2,Solo,Vegan,5,1,2,2,2,5,Medium,Standard,Mixed,Balanced
+316,24316,6,6,Solo,Non-Vegetarian,1,2,5,4,3,1,Medium,Budget,Mixed,Packed
+317,16184,3,4,Friends,Vegetarian,4,2,3,3,2,4,Medium,Budget,Cab,Relaxed
+318,9675,3,5,Family,Non-Vegetarian,2,4,2,1,1,5,High,Luxury,Mixed,Packed
+319,10798,8,1,Solo,Non-Vegetarian,5,5,5,2,5,3,Medium,Luxury,Rental,Balanced
+320,8854,4,3,Couple,No Preference,5,3,4,5,5,3,High,Luxury,Cab,Packed
+321,11019,8,5,Friends,No Preference,1,4,5,5,1,2,Low,Standard,Mixed,Relaxed
+322,17313,9,1,Solo,Non-Vegetarian,4,1,1,4,2,1,Low,Luxury,Rental,Balanced
+323,20649,7,4,Couple,Vegan,4,1,4,3,3,1,Low,Standard,Public Transport,Balanced
+324,23514,9,7,Couple,Vegetarian,5,5,1,4,2,2,Medium,Standard,Rental,Relaxed
+325,9270,3,7,Solo,Vegan,3,3,3,5,2,5,Low,Budget,Rental,Packed
+326,11869,5,7,Family,No Preference,4,3,1,3,4,3,Low,Standard,Public Transport,Relaxed
+327,28921,9,6,Solo,Non-Vegetarian,4,4,3,4,5,4,High,Luxury,Cab,Relaxed
+328,21040,4,7,Friends,Vegan,5,3,2,1,5,1,High,Luxury,Rental,Relaxed
+329,20585,9,3,Couple,Vegan,2,4,3,3,1,5,Low,Budget,Rental,Relaxed
+330,17159,8,4,Solo,Non-Vegetarian,5,4,1,4,1,2,Low,Standard,Cab,Relaxed
+331,7181,7,5,Friends,Non-Vegetarian,2,3,5,3,1,3,Medium,Budget,Mixed,Relaxed
+332,11487,2,4,Couple,Vegan,2,1,2,5,3,3,Low,Standard,Rental,Relaxed
+333,14856,5,7,Couple,Non-Vegetarian,1,5,5,5,2,1,High,Luxury,Rental,Balanced
+334,6033,5,4,Solo,Vegetarian,4,1,5,1,2,4,Low,Luxury,Rental,Relaxed
+335,106323,8,2,Solo,Vegetarian,4,2,5,2,5,1,High,Luxury,Cab,Relaxed
+336,6140,6,4,Family,Vegetarian,4,5,2,4,1,4,High,Standard,Cab,Packed
+337,105364,7,2,Friends,Vegetarian,1,2,4,4,1,5,Medium,Budget,Public Transport,Balanced
+338,16129,3,3,Couple,Vegan,4,5,3,3,4,3,Medium,Luxury,Cab,Relaxed
+339,41515,8,6,Solo,Vegan,4,3,1,1,3,2,High,Standard,Public Transport,Packed
+340,73798,3,4,Solo,Non-Vegetarian,2,5,1,1,3,2,High,Luxury,Cab,Balanced
+341,53386,7,3,Couple,No Preference,5,3,3,4,3,1,Low,Budget,Public Transport,Packed
+342,84066,7,5,Family,Vegan,3,1,3,4,1,3,High,Standard,Public Transport,Relaxed
+343,20603,8,1,Friends,No Preference,5,3,4,3,4,5,Low,Luxury,Rental,Relaxed
+344,26891,7,6,Couple,Vegan,3,2,4,3,5,1,Medium,Budget,Mixed,Balanced
+345,6907,8,4,Couple,Vegetarian,5,2,2,5,5,1,Medium,Standard,Mixed,Packed
+346,34028,4,5,Family,Non-Vegetarian,2,1,3,1,2,2,Low,Luxury,Cab,Balanced
+347,11468,4,1,Solo,No Preference,1,5,2,1,2,1,High,Standard,Mixed,Balanced
+348,12445,7,1,Couple,Vegan,1,1,1,4,4,5,Medium,Luxury,Rental,Packed
+349,6567,5,4,Couple,Non-Vegetarian,2,2,2,1,5,2,Medium,Budget,Public Transport,Relaxed
+350,31678,8,2,Friends,Non-Vegetarian,3,2,2,2,4,3,High,Standard,Cab,Packed
+351,31576,3,3,Solo,Vegetarian,2,1,3,4,2,3,High,Standard,Mixed,Packed
+352,34824,8,3,Couple,Vegan,1,4,3,5,3,4,Medium,Budget,Rental,Relaxed
+353,46080,9,2,Friends,Non-Vegetarian,1,1,3,3,1,4,Medium,Luxury,Cab,Relaxed
+354,11996,2,3,Solo,Vegetarian,4,3,5,2,4,1,Medium,Luxury,Public Transport,Relaxed
+355,34846,5,7,Couple,Non-Vegetarian,5,4,3,2,2,2,Low,Budget,Public Transport,Balanced
+356,38327,7,7,Solo,Non-Vegetarian,3,2,5,1,2,5,High,Luxury,Mixed,Packed
+357,38648,8,3,Solo,Vegetarian,5,2,2,1,5,2,High,Luxury,Rental,Packed
+358,23737,8,3,Couple,No Preference,2,3,1,1,5,4,Medium,Luxury,Cab,Packed
+359,19321,5,1,Solo,Non-Vegetarian,3,2,3,4,1,3,Low,Standard,Rental,Balanced
+360,6465,8,5,Friends,Vegetarian,4,2,1,3,2,1,Low,Luxury,Public Transport,Balanced
+361,9136,2,1,Family,Vegetarian,1,2,1,4,1,4,Low,Budget,Public Transport,Balanced
+362,7415,3,7,Solo,No Preference,2,5,1,2,2,4,Low,Budget,Cab,Relaxed
+363,7120,3,3,Family,No Preference,3,4,1,5,3,4,Low,Luxury,Rental,Balanced
+364,47853,3,5,Friends,Non-Vegetarian,1,2,3,1,4,1,Low,Luxury,Rental,Packed
+365,34810,6,6,Friends,Non-Vegetarian,4,5,1,1,1,2,Medium,Standard,Mixed,Relaxed
+366,28147,9,7,Solo,Non-Vegetarian,3,2,2,1,2,1,Low,Luxury,Rental,Relaxed
+367,89549,2,4,Couple,No Preference,1,5,2,4,2,5,Medium,Standard,Public Transport,Packed
+368,34660,9,4,Couple,No Preference,4,3,3,4,2,4,Medium,Luxury,Cab,Relaxed
+369,41996,7,2,Family,No Preference,3,5,3,3,4,3,Low,Luxury,Public Transport,Packed
+370,13634,4,2,Solo,Vegan,5,5,1,3,5,1,Medium,Budget,Mixed,Relaxed
+371,146311,6,3,Friends,Non-Vegetarian,2,4,4,2,1,2,Medium,Budget,Public Transport,Packed
+372,5882,3,5,Couple,Non-Vegetarian,5,1,4,2,5,3,Medium,Budget,Cab,Balanced
+373,19732,2,2,Family,Non-Vegetarian,3,4,5,4,2,5,Low,Standard,Mixed,Relaxed
+374,10645,6,4,Couple,Non-Vegetarian,4,1,1,2,5,4,Medium,Standard,Rental,Balanced
+375,22557,7,3,Couple,No Preference,5,5,1,1,3,2,Low,Standard,Rental,Balanced
+376,32400,3,2,Solo,Vegan,2,1,4,5,1,5,Medium,Standard,Rental,Relaxed
+377,38777,3,5,Couple,Non-Vegetarian,5,4,5,2,4,1,High,Standard,Cab,Balanced
+378,8235,2,4,Couple,Vegan,2,5,3,2,3,1,Medium,Budget,Public Transport,Balanced
+379,31388,6,3,Solo,Vegan,2,3,2,2,4,2,High,Standard,Public Transport,Relaxed
+380,85337,5,7,Family,Non-Vegetarian,4,1,5,5,5,3,Medium,Budget,Public Transport,Relaxed
+381,57143,9,4,Family,Vegan,4,5,1,4,3,4,Medium,Budget,Public Transport,Packed
+382,14436,2,3,Friends,No Preference,5,3,5,4,5,2,Low,Standard,Public Transport,Relaxed
+383,22688,5,6,Family,No Preference,3,5,2,2,5,2,Low,Standard,Cab,Packed
+384,23613,8,1,Family,Vegetarian,3,2,3,1,5,5,High,Standard,Rental,Balanced
+385,66627,9,4,Solo,Vegan,4,2,4,5,3,1,Low,Budget,Cab,Packed
+386,20629,3,1,Couple,No Preference,5,1,5,2,4,2,Low,Standard,Cab,Relaxed
+387,17911,4,3,Couple,Non-Vegetarian,2,1,4,1,3,1,High,Luxury,Cab,Relaxed
+388,9567,8,7,Family,No Preference,3,3,2,1,4,2,Low,Luxury,Public Transport,Packed
+389,22619,5,6,Family,Vegan,1,2,1,2,4,1,High,Budget,Mixed,Packed
+390,12211,5,7,Friends,No Preference,5,5,1,2,5,5,High,Standard,Public Transport,Balanced
+391,11349,5,3,Solo,No Preference,1,4,5,4,3,2,Medium,Budget,Rental,Balanced
+392,8039,6,2,Couple,Non-Vegetarian,3,4,3,5,1,4,Low,Luxury,Cab,Relaxed
+393,35528,2,6,Friends,No Preference,5,3,3,4,2,1,Low,Standard,Mixed,Relaxed
+394,21364,3,4,Couple,Vegan,1,1,2,3,5,4,High,Standard,Rental,Balanced
+395,23347,8,6,Solo,Vegetarian,3,1,1,5,3,2,Low,Luxury,Public Transport,Packed
+396,14368,5,4,Family,Vegetarian,2,5,3,5,5,1,High,Budget,Public Transport,Relaxed
+397,23695,3,2,Friends,No Preference,1,1,3,2,4,3,Low,Budget,Rental,Balanced
+398,10492,8,4,Family,Vegetarian,4,1,5,4,4,5,Low,Luxury,Mixed,Balanced
+399,36560,2,6,Family,Vegan,3,1,1,4,1,4,Low,Luxury,Cab,Packed
+400,12378,2,5,Solo,Non-Vegetarian,3,3,4,2,3,4,Medium,Luxury,Rental,Relaxed
+401,16502,3,4,Couple,Vegan,1,3,1,3,3,2,Low,Standard,Mixed,Balanced
+402,14219,5,4,Couple,Vegan,4,5,4,1,1,1,High,Standard,Public Transport,Balanced
+403,21523,3,2,Friends,Non-Vegetarian,4,2,1,4,1,3,High,Luxury,Rental,Packed
+404,92709,4,6,Couple,No Preference,2,5,2,3,3,2,High,Luxury,Public Transport,Relaxed
+405,36136,5,2,Friends,No Preference,1,4,3,5,2,1,High,Budget,Rental,Relaxed
+406,56535,4,4,Solo,Vegetarian,3,4,1,5,4,5,High,Standard,Public Transport,Relaxed
+407,5354,5,2,Family,No Preference,3,3,2,3,3,3,Medium,Budget,Mixed,Packed
+408,25024,5,5,Family,Non-Vegetarian,1,1,5,3,3,5,Medium,Luxury,Cab,Packed
+409,18945,9,7,Friends,Vegetarian,5,2,1,4,1,2,Medium,Budget,Mixed,Packed
+410,31016,4,6,Couple,Non-Vegetarian,2,4,1,4,1,5,Low,Budget,Mixed,Relaxed
+411,8861,3,6,Couple,Vegetarian,5,3,2,2,3,4,Medium,Luxury,Public Transport,Balanced
+412,113313,7,5,Solo,No Preference,3,5,4,5,5,4,Low,Luxury,Cab,Balanced
+413,11636,3,7,Solo,Vegan,5,4,2,5,2,3,Low,Budget,Cab,Relaxed
+414,129126,4,5,Family,Vegan,1,2,3,3,1,5,High,Luxury,Cab,Balanced
+415,30523,4,1,Friends,Vegan,3,4,1,1,3,4,High,Luxury,Rental,Balanced
+416,9305,3,2,Family,Non-Vegetarian,5,2,2,4,4,5,Low,Luxury,Cab,Relaxed
+417,15969,6,5,Solo,Non-Vegetarian,4,2,5,3,1,5,High,Luxury,Rental,Relaxed
+418,23399,3,6,Friends,Non-Vegetarian,2,2,3,1,3,1,Low,Luxury,Mixed,Balanced
+419,69685,9,4,Family,Non-Vegetarian,2,1,5,1,2,2,Low,Standard,Mixed,Relaxed
+420,28653,9,5,Family,Non-Vegetarian,4,5,1,1,1,1,High,Luxury,Mixed,Relaxed
+421,78826,9,7,Solo,Vegetarian,2,2,4,1,3,2,Medium,Standard,Public Transport,Relaxed
+422,24344,5,1,Couple,Vegetarian,3,5,2,5,2,2,Medium,Standard,Rental,Balanced
+423,27949,9,4,Solo,Vegetarian,1,3,1,5,4,5,Medium,Budget,Rental,Packed
+424,9141,9,4,Solo,Non-Vegetarian,5,1,2,3,4,4,High,Budget,Rental,Balanced
+425,30096,8,2,Friends,No Preference,3,5,3,5,2,3,Medium,Standard,Rental,Relaxed
+426,8787,9,7,Couple,Vegetarian,4,4,2,5,4,4,Low,Budget,Mixed,Packed
+427,10231,2,2,Friends,Vegetarian,5,3,3,5,4,5,Low,Budget,Cab,Balanced
+428,39232,6,4,Family,No Preference,5,2,5,1,4,3,Low,Luxury,Cab,Relaxed
+429,5100,7,3,Solo,Vegan,2,2,3,4,2,3,Low,Luxury,Rental,Relaxed
+430,36891,7,7,Family,Vegan,5,1,2,2,2,3,Low,Budget,Public Transport,Balanced
+431,142499,7,1,Solo,Vegetarian,2,1,2,5,5,4,Medium,Standard,Public Transport,Relaxed
+432,15719,4,2,Couple,Non-Vegetarian,5,2,2,2,4,2,Low,Budget,Cab,Relaxed
+433,142240,6,4,Couple,No Preference,5,5,5,1,2,1,Medium,Luxury,Cab,Balanced
+434,7251,2,2,Couple,Non-Vegetarian,3,4,1,3,5,4,High,Luxury,Rental,Relaxed
+435,39309,8,4,Friends,Non-Vegetarian,2,5,5,2,2,4,Medium,Luxury,Rental,Relaxed
+436,12329,7,6,Friends,Vegan,5,3,2,1,5,3,Medium,Budget,Cab,Relaxed
+437,27737,3,2,Solo,No Preference,4,4,5,3,2,3,High,Budget,Mixed,Balanced
+438,61304,4,4,Family,Vegetarian,3,5,3,3,3,2,High,Standard,Rental,Balanced
+439,25652,2,3,Solo,Vegan,1,2,4,5,2,4,Low,Budget,Public Transport,Balanced
+440,26675,2,3,Couple,Non-Vegetarian,5,2,5,1,2,1,Low,Standard,Cab,Relaxed
+441,11789,3,3,Solo,No Preference,4,2,1,5,2,2,High,Luxury,Cab,Balanced
+442,10682,6,5,Solo,Non-Vegetarian,5,3,1,4,2,1,Low,Standard,Rental,Balanced
+443,10153,9,3,Couple,Vegan,1,3,3,2,1,4,Low,Luxury,Rental,Relaxed
+444,28763,8,5,Couple,No Preference,5,1,2,5,5,3,Medium,Luxury,Rental,Balanced
+445,5028,8,2,Solo,Vegan,2,1,3,2,2,3,Medium,Budget,Rental,Balanced
+446,14549,6,3,Couple,Non-Vegetarian,2,1,5,1,1,5,High,Standard,Rental,Balanced
+447,8071,2,7,Friends,No Preference,2,4,3,4,4,2,Medium,Standard,Rental,Balanced
+448,5392,4,1,Couple,No Preference,1,5,3,4,4,3,High,Budget,Cab,Relaxed
+449,38553,3,5,Family,Vegetarian,5,5,4,5,4,2,Low,Standard,Public Transport,Balanced
+450,24896,4,5,Solo,Vegan,4,1,1,3,3,4,Medium,Budget,Cab,Balanced
+451,14420,5,5,Family,Vegan,5,1,2,4,4,2,Low,Budget,Cab,Packed
+452,10720,9,7,Family,Vegetarian,2,2,5,4,3,2,High,Budget,Rental,Relaxed
+453,8401,8,4,Couple,Vegetarian,4,3,2,2,5,5,Medium,Luxury,Public Transport,Relaxed
+454,39340,4,1,Couple,Non-Vegetarian,5,4,3,5,5,2,High,Standard,Cab,Relaxed
+455,30847,9,5,Couple,Vegetarian,3,3,3,5,2,4,Low,Standard,Cab,Relaxed
+456,5858,7,7,Solo,No Preference,3,2,4,3,1,5,Medium,Luxury,Mixed,Relaxed
+457,38336,5,1,Couple,Vegetarian,4,5,5,3,4,1,High,Budget,Public Transport,Balanced
+458,146732,7,2,Couple,Vegan,2,3,5,2,1,4,Medium,Budget,Rental,Balanced
+459,7072,6,2,Solo,No Preference,3,4,2,3,5,4,High,Luxury,Rental,Packed
+460,26759,8,3,Family,Vegan,3,5,5,5,2,3,Medium,Standard,Mixed,Packed
+461,30153,3,3,Friends,No Preference,2,3,5,3,5,2,High,Standard,Cab,Balanced
+462,114632,8,4,Family,Vegan,5,4,3,1,5,2,High,Luxury,Rental,Balanced
+463,8771,6,5,Family,No Preference,1,1,3,3,5,5,Medium,Standard,Public Transport,Packed
+464,67472,3,6,Couple,Non-Vegetarian,3,4,4,4,5,2,Medium,Luxury,Rental,Relaxed
+465,58653,5,6,Solo,No Preference,3,3,2,5,2,3,Medium,Standard,Mixed,Relaxed
+466,7321,5,4,Friends,Vegan,5,2,3,2,3,4,Low,Standard,Mixed,Packed
+467,22373,9,2,Couple,Vegetarian,5,4,3,4,5,1,Low,Standard,Cab,Packed
+468,36944,8,4,Friends,Non-Vegetarian,4,5,2,4,2,2,Low,Luxury,Cab,Relaxed
+469,24810,9,3,Friends,Vegan,5,2,2,3,2,1,High,Standard,Public Transport,Relaxed
+470,5233,2,3,Friends,Vegan,3,2,4,3,3,4,Low,Luxury,Rental,Balanced
+471,28039,6,1,Couple,Vegan,2,4,3,3,4,5,High,Standard,Cab,Relaxed
+472,56608,5,7,Family,Vegetarian,4,1,4,5,3,3,Low,Luxury,Mixed,Relaxed
+473,107359,7,1,Couple,Non-Vegetarian,1,3,2,5,4,2,Low,Luxury,Mixed,Balanced
+474,17989,7,3,Family,No Preference,3,3,1,5,3,4,Medium,Luxury,Mixed,Packed
+475,18232,7,5,Solo,Vegetarian,4,1,5,5,5,2,Low,Budget,Cab,Balanced
+476,26384,2,7,Couple,No Preference,2,1,1,1,3,3,Medium,Budget,Public Transport,Relaxed
+477,19725,3,6,Friends,No Preference,1,4,5,4,3,5,High,Standard,Rental,Packed
+478,74268,2,2,Solo,No Preference,3,4,3,2,2,1,Low,Standard,Public Transport,Relaxed
+479,30651,2,2,Solo,Vegan,5,2,4,4,3,1,Medium,Budget,Public Transport,Packed
+480,12903,6,5,Friends,Vegetarian,2,3,5,5,4,3,Low,Luxury,Rental,Packed
+481,38366,7,5,Friends,Vegetarian,2,1,4,3,1,1,Medium,Standard,Cab,Packed
+482,129494,6,1,Family,Vegan,5,2,4,1,3,5,Low,Budget,Mixed,Balanced
+483,8883,8,1,Friends,Non-Vegetarian,4,1,2,2,4,3,High,Standard,Cab,Balanced
+484,35420,2,6,Couple,No Preference,3,2,1,4,5,4,Medium,Luxury,Mixed,Relaxed
+485,7838,9,6,Couple,Non-Vegetarian,3,4,3,5,2,2,High,Standard,Mixed,Relaxed
+486,14850,3,1,Couple,Non-Vegetarian,1,5,3,3,4,2,Low,Standard,Public Transport,Packed
+487,18985,4,6,Friends,Vegetarian,4,2,3,3,1,2,Low,Budget,Mixed,Balanced
+488,25002,4,3,Friends,Non-Vegetarian,2,4,3,1,1,4,Low,Standard,Rental,Balanced
+489,52336,6,4,Family,Vegan,1,2,1,5,1,2,High,Budget,Mixed,Packed
+490,18523,6,7,Friends,Non-Vegetarian,5,1,4,2,3,5,Medium,Budget,Rental,Balanced
+491,14574,8,4,Friends,Vegetarian,2,5,5,5,1,5,High,Luxury,Cab,Relaxed
+492,11372,7,5,Couple,Vegan,1,3,3,5,3,2,High,Standard,Cab,Relaxed
+493,35644,2,1,Solo,Vegan,1,3,2,2,4,3,Low,Budget,Public Transport,Relaxed
+494,32459,7,7,Friends,Vegetarian,5,4,5,2,5,1,Medium,Budget,Public Transport,Balanced
+495,33261,5,5,Solo,Non-Vegetarian,5,1,2,4,1,4,Low,Budget,Cab,Balanced
+496,27919,9,3,Solo,Vegan,1,2,4,2,2,1,High,Budget,Public Transport,Relaxed
+497,21554,9,3,Friends,Vegan,1,3,4,4,4,5,High,Budget,Mixed,Relaxed
+498,31440,4,1,Solo,Non-Vegetarian,2,2,3,4,4,4,High,Luxury,Rental,Packed
+499,23940,3,6,Solo,No Preference,1,5,2,3,5,3,Medium,Budget,Mixed,Balanced
+500,17763,3,2,Friends,Vegan,3,4,4,1,5,2,Low,Standard,Mixed,Relaxed

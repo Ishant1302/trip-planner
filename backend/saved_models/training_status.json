@@ -1,0 +1,12 @@
+{
+  "trained": true,
+  "trained_at": "2026-11-04T18:38:39.613362",
+  "models": [
+    "Random Forest Classifier",
+    "K-Means Clusterer",
+    "Cost Regressor",
+    "Time Regressor"
+  ],
+  "classification_f1": 0.8908,
+  "clustering_silhouette": 0.0824
+}

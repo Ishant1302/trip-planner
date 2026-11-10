@@ -1,0 +1,11 @@
+{
+  "data_note": "All datasets are synthetic/simulated for academic ML demonstration",
+  "seed": 42,
+  "records": {
+    "places": 111,
+    "destinations": 20,
+    "users": 500,
+    "interactions": 2928,
+    "past_trips": 800
+  }
+}
